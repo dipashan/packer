@@ -5,7 +5,7 @@
    },
   "builders": [
     {
-      "ami_name": "packer-linux-aws-demo-{{timestamp}}"
+      "ami_name": "packer-linux-aws-demo-{{timestamp}}",
       "type": "amazon-ebs",
       "region": "us-east-2",
       "source_ami_filter":{
